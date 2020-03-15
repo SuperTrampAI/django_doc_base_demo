@@ -1,0 +1,8 @@
+python manage.py makgemigrations  appname 运行该命令Django会检测模型文件的修改
+
+使用如下命令查看mrigrate将要执行的sql脚本
+python manage.py sqlmigrate app1 0001
+
+主键被自动创建 ，也可以自定义主键，如何没有自定义主键则django自动创建
+
+python manage.py check
