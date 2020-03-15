@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app1',
+    'app2',
     # 还可以是这种点式路径
     #'app1.apps.App1Config'
 ]
